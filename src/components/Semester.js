@@ -62,9 +62,19 @@ class Semester extends Component {
                 variant="outlined" color="primary" style={{margin: 10}}>
                 Get Schedule
               </Button>
+
+                 
+                <Button component={Link} 
+                      to={{pathname:'/addingstudent'}} 
+                         variant="outlined" color="primary" style={{margin: 10}}>
+                Add Student
+              </Button>
+                
           </div>
       </div>
     )
   }
 }
 export default Semester;
+
+//last button on homepage leads to the adding route to add a student
